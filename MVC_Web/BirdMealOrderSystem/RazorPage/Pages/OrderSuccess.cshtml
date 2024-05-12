@@ -1,0 +1,25 @@
+﻿@page
+@model RazorPage.Pages.OrderSuccessModel
+@{
+    Layout = "LayoutCustomer";
+}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <title>RETURN URL FROM VNPAY</title>
+        <link href="Styles/bootstrap.min.css" rel="stylesheet" />
+    </head>
+    <body>
+    @if(Model.resulPay.vnp_ResponseCode =="00" && Model.resulPay.vnp_TransactionStatus == "00")
+    {
+        <h1 >Payment successfully</h1>
+        <h4 >Amount: @Model.resulPay.vnp_Amount vnd</h4>
+        <h4 >At: @Model.resulPay.vnp_PayDate</h4>
+        <h4 >Content: @Model.resulPay.vnp_OrderInfo</h4>
+    } else
+    {
+        <h1 class="text-danger">Payment fail, please check again!</h1>
+    }
+
+    </body>
+</html>

@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "C:\\Users\\Hii\\.gradle\\daemon\\7.5\\com.example.thinktank_mobile.app-merged_res-31:\\drawable-v21_launch_background.xml.flat",
+        "source": "C:\\Users\\Hii\\.gradle\\daemon\\7.5\\com.example.thinktank_mobile.app-main-25:\\drawable-v21\\launch_background.xml"
+    },
+    {
+        "merged": "com.example.thinktank_mobile.app-merged_res-31:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.thinktank_mobile.app-main-25:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.thinktank_mobile.app-merged_res-31:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.thinktank_mobile.app-main-25:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Hii\\.gradle\\daemon\\7.5\\com.example.thinktank_mobile.app-merged_res-31:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Hii\\.gradle\\daemon\\7.5\\com.example.thinktank_mobile.app-main-25:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Hii\\.gradle\\daemon\\7.5\\com.example.thinktank_mobile.app-merged_res-31:\\drawable_launch_background.xml.flat",
+        "source": "C:\\Users\\Hii\\.gradle\\daemon\\7.5\\com.example.thinktank_mobile.app-main-25:\\drawable\\launch_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hii\\.gradle\\daemon\\7.5\\com.example.thinktank_mobile.app-merged_res-31:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Hii\\.gradle\\daemon\\7.5\\com.example.thinktank_mobile.app-main-25:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Hii\\.gradle\\daemon\\7.5\\com.example.thinktank_mobile.app-merged_res-31:\\drawable-v21_logo_2.png.flat",
+        "source": "C:\\Users\\Hii\\.gradle\\daemon\\7.5\\com.example.thinktank_mobile.app-main-25:\\drawable-v21\\logo_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Hii\\.gradle\\daemon\\7.5\\com.example.thinktank_mobile.app-merged_res-31:\\drawable_logo_2.png.flat",
+        "source": "C:\\Users\\Hii\\.gradle\\daemon\\7.5\\com.example.thinktank_mobile.app-main-25:\\drawable\\logo_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Hii\\.gradle\\daemon\\7.5\\com.example.thinktank_mobile.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Hii\\.gradle\\daemon\\7.5\\com.example.thinktank_mobile.app-main-25:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.example.thinktank_mobile.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.thinktank_mobile.app-main-25:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Hii\\.gradle\\daemon\\7.5\\com.example.thinktank_mobile.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Hii\\.gradle\\daemon\\7.5\\com.example.thinktank_mobile.app-main-25:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.example.thinktank_mobile.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.thinktank_mobile.app-main-25:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.thinktank_mobile.app-merged_res-31:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.thinktank_mobile.app-main-25:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Hii\\.gradle\\daemon\\7.5\\com.example.thinktank_mobile.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Hii\\.gradle\\daemon\\7.5\\com.example.thinktank_mobile.app-main-25:\\mipmap-xxxhdpi\\ic_launcher.png"
+    }
+]

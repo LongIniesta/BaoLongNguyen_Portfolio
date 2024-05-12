@@ -1,0 +1,223 @@
+.bodyPage3{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/lottery-4803d.appspot.com/o/N%E1%BB%81n%20kh%C3%B4ng%20ch%E1%BB%AF%20(1).gif?alt=media&token=dc3f7b55-331b-4c1b-8b31-bbd02a15102a');
+    background-size: cover;
+    background-position: center;
+}
+
+.mainPage3{
+    margin: 0;
+    padding: 0;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/lottery-4803d.appspot.com/o/N%E1%BB%81n%20kh%C3%B4ng%20ch%E1%BB%AF%20(1).gif?alt=media&token=dc3f7b55-331b-4c1b-8b31-bbd02a15102a');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #ffffff;
+    text-align: center;
+}
+.win1{
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.63);
+    display: flex;
+}
+.win1l{
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.425);
+    display: flex;
+}
+.win10{
+    display: flex;
+    height: 350px;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.win5{
+    height: 100%;
+    width: 50vw;
+}
+
+.win1stt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    width: 30px;
+    color: #ffffff;
+}
+
+.win1ten{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    width: 400px;
+    color: #ffffff;
+}
+
+.win1phongban{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #ffffff;
+}
+.mainPage3 h2{
+    text-transform: uppercase;
+    padding-top: 100px;
+    margin-top: 0px;
+    font-family: 'Black Ops One', serif;
+    color: rgb(204, 207, 0);
+    font-size: 70px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.divcao{
+    height: 70px;
+}
+.mainPage3 h3{
+    margin: 0px 0px;
+    margin-bottom: 20px;
+    font-family: 'Alfa Slab One', serif;
+    color: rgb(219, 219, 219);
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.mainPage3 p{
+    font-family: 'Alfa Slab One', serif;
+    color: rgb(223, 223, 223);
+    font-size: 30px;
+}
+
+.mainPage3 button{
+    margin-bottom: 30px;
+    background-color: rgba(71, 255, 148, 0.356);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 200px;
+    height: 80px;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Black Ops One', serif;
+}
+.mainPage3 button:hover{
+    margin-bottom: 30px;
+    background-color: rgba(71, 255, 148, 0.158);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 200px;
+    height: 80px;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Black Ops One', serif;
+}
+
+
+.mainPage3 ul {
+    list-style-type: none; /* Bỏ dấu chấm tròn */
+    padding: 0; /* Loại bỏ padding mặc định của danh sách */
+    margin: 0; /* Loại bỏ margin mặc định của danh sách */
+}
+.mainPage3 li {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-family: 'Alfa Slab One', serif;
+    font-size: 20px;
+    counter-increment: custom-counter; /* Tăng giá trị của counter cho mỗi phần tử li */
+    margin-bottom: 10px; /* Khoảng cách giữa các phần tử li */
+}
+.sttlw{
+    width: 50px;
+}
+.namelw{
+    width: 500px;
+}
+
+.listWin li:nth-child(odd) div{
+    background-color: #00000093;
+}
+.listWin li:nth-child(even) div{
+    background-color: #0000002c;
+}
+
+.listWinec li:nth-child(odd) div{
+    background-color: #00000093;
+}
+.listWinec li:nth-child(even) div{
+    background-color: #0000002c;
+}
+
+
+.listwindiv{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 70px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.listwindiv h5{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* .mainPage3 li::before {
+    content: counter(custom-counter); 
+    font-weight: bold; 
+    margin-right: 5px; 
+} */
+.imgPrize{
+    height: 200px;
+}
+.listWin2 {
+    margin-top: 80px;
+    height: 500px;
+    width: 50vw;
+    overflow: auto;
+}
+
+.listWin2 h4{
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.listWin2 p{
+    margin-left: 100px;
+    color: rgb(12, 12, 12);
+    font-size: 30px;
+}
+
+
+.listWin2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.listWin2 li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.listWin2 li:nth-child(even) {
+    background-color: #00000031;
+}
+
+.listWin2 li:nth-child(odd) {
+    background-color: #00000067;
+}
+.h21giai{
+    padding-top: 100px;
+}

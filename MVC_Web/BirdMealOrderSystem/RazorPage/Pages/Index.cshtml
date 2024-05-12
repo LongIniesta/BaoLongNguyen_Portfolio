@@ -1,0 +1,50 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<link rel="stylesheet" href="~/css/long.css" />
+<section class="sct-custom">
+    <div class="container-new" id="container-new">
+        <div class="form-container-new sign-up-container-new">
+                <a class="btn-custom" href="/Register">Sign Up</a>
+        </div>
+        <div class="form-container-new sign-in-container-new">
+            <form class="form-new" method="post">
+                <h1 class="h1-custom">Sign in</h1>
+                <span class="span-custom">or use your account</span>
+                <div>
+                    
+                    <input class="input-new" type="text" asp-for="@Model.LoginDTOInfor.phone" placeholder="Phone Number" />
+                    <span asp-validation-for="@Model.LoginDTOInfor.phone" class="text-danger"></span>
+                </div>
+                <div>
+                   
+                    <input class="input-new" type="password" asp-for="@Model.LoginDTOInfor.password" placeholder="Password" />
+                    <span asp-validation-for="@Model.LoginDTOInfor.password" class="text-danger"></span>
+                </div>
+                
+                <a class="a-custom" href="#">Forgot your password?</a>
+                <button class="btn-custom" type="submit">Sign In</button>
+                <span class="text-danger">@Model.Message</span>
+            </form>
+        </div>
+        <div class="overlay-container-new">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1 class="h1-custom">Welcome Back!</h1>
+                    <p class="p-custom">
+                        To keep connected with us please login with your personal info
+                    </p>
+                    <button class="btn-custom ghost" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1 class="h1-custom">Hello, Friend!</h1>
+                    <p class="p-custom">Your Bird, My Bird!</p>
+                    <a class="btn-custom ghost" href="/Register">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

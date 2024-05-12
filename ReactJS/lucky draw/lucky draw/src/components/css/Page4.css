@@ -1,0 +1,200 @@
+.bodyPage4{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/lottery-4803d.appspot.com/o/N%E1%BB%81n%20kh%C3%B4ng%20ch%E1%BB%AF%20(1).gif?alt=media&token=dc3f7b55-331b-4c1b-8b31-bbd02a15102a');
+    background-size: cover;
+    background-position: center;
+}
+
+.mainPage4{
+    margin: 0;
+    padding: 0;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/lottery-4803d.appspot.com/o/N%E1%BB%81n%20kh%C3%B4ng%20ch%E1%BB%AF%20(1).gif?alt=media&token=dc3f7b55-331b-4c1b-8b31-bbd02a15102a');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #ffffff;
+    text-align: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.divPrize1{
+    display: flex;
+    justify-content: center;
+}
+.divPrize30{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+.divPrize30l{
+    background-color: rgba(0, 0, 0, 0.247);
+    display: flex;
+}
+.prize30Phongban{
+    font-family: 'Black Ops One', serif;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+.prize30{
+    width: 15vw;
+    font-family: 'Black Ops One', serif;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 100;
+}
+.prize1Phongban{
+    font-family: 'Black Ops One', serif;
+    text-transform: uppercase;
+    color: rgb(255, 254, 178);
+    font-size: 40px;
+    font-weight: 100;
+}
+
+
+.prize1{
+    font-family: 'Black Ops One', serif;
+    text-transform: uppercase;
+    color: rgb(255, 254, 178);
+    font-size: 40px;
+    font-weight: 100;
+}
+.imgPrize2{
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.prize2Phongban{
+    font-family: 'Black Ops One', serif;
+    text-transform: uppercase;
+    color: rgb(255, 254, 178);
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.div30{
+    display: flex;
+    height: 500px;
+    width: 100vw;
+}
+.div10{
+    height: 100%;
+    width: 33vw;
+}
+.prize2{
+    margin-top: 0px;
+    font-family: 'Black Ops One', serif;
+    text-transform: uppercase;
+    color: rgb(255, 254, 178);
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.h2Prizekk{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-family: 'Black Ops One', serif;
+    text-transform: uppercase;
+    color: rgb(245, 228, 0);
+    font-size: 70px;
+    font-weight: 100;
+}
+.h2Prize1{
+    margin-top: 200px;
+    margin-bottom: 40px;
+    font-family: 'Black Ops One', serif;
+    text-transform: uppercase;
+    color: rgb(245, 228, 0);
+    font-size: 70px;
+    font-weight: 100;
+}
+.h2Prize2{
+    margin-top: 180px;
+    margin-bottom: 40px;
+    font-family: 'Black Ops One', serif;
+    text-transform: uppercase;
+    color: rgb(245, 228, 0);
+    font-size: 70px;
+    font-weight: 100;
+}
+/* .mainPage4 h2{
+    margin-top: 200px;
+    margin-bottom: 40px;
+    font-family: 'Black Ops One', serif;
+    text-transform: uppercase;
+    color: rgb(245, 228, 0);
+    font-size: 50px;
+    font-weight: 100;
+} */
+.mainPage4 h3{
+    margin: 0px 0px;
+    margin-bottom: 20px;
+    font-family: 'Alfa Slab One', serif;
+    color: rgb(219, 219, 219);
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.mainPage4 h4{
+    font-family: 'Alfa Slab One', serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+.mainPage4 p{
+    margin-left: auto;
+    margin-right: 400px;
+    font-family: 'Alfa Slab One', serif;
+    color: rgb(247, 247, 247);
+    font-size: 17px;
+}
+
+.mainPage4 ul {
+    margin-top: 50px;
+    list-style-type: none; /* Bỏ dấu chấm tròn */
+    padding: 0; /* Loại bỏ padding mặc định của danh sách */
+    margin: 0; /* Loại bỏ margin mặc định của danh sách */
+}
+.mainPage4 li {
+    text-align: left;
+    color: aliceblue;
+    font-family: 'Alfa Slab One', serif;
+    font-size: 20px;
+    counter-increment: custom-counter; /* Tăng giá trị của counter cho mỗi phần tử li */
+    margin-bottom: 10px; /* Khoảng cách giữa các phần tử li */
+}
+
+.mainPage4 li::before {
+    margin-left: 10px;
+    width: 30px;
+    content: counter(custom-counter) ; 
+    font-weight: bold; 
+    margin-right: 10px; 
+}
+
+.listWin{
+    height: 350px;
+    margin-top: 30px;
+    overflow: auto;
+}
+.listWinec{
+    height: 350px;
+    margin-top: 30px;
+    overflow: auto;
+}
+
+
+
+.listWin2::-webkit-scrollbar {
+    width: 0px; 
+}

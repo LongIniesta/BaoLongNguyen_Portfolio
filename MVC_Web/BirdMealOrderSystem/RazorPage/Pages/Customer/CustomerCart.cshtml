@@ -1,0 +1,128 @@
+﻿@page
+@model RazorPage.Pages.Customer.CustomerCartModel
+@{
+    Layout = "LayoutCustomer";
+}
+
+<div class="d-flex justify-content-between">
+    <a asp-page="/ShoppingProduct">
+        <img src="~/images/back-icon-3.png" style="padding-left: 30px;" />
+    </a>
+    <div>
+    </div>
+    <div>
+    </div>
+</div>
+<div class="d-flex justify-content-center">
+    <span class="mx-2 span-custom"><a style="font-weight: 500; color: #5A5A5A; text-decoration: none;" asp-page="Index">Home</a></span>
+    <span> / </span>
+    <span class="mx-2" style="font-weight: 500; color: #000;">My Cart</span>
+</div>
+<h1 class="text-center mt-5 mb-5">MY CART</h1>
+
+<hr />
+
+@if (Model.cart != null && Model.cart.Count > 0)
+{
+    <div class="container">
+        <h3 style="margin-bottom: 30px;">COMBO</h3>
+        <form method="post" asp-page="customerCart" asp-page-handler="update">
+            <table class="table">
+                <thead class="table-dark">
+                    <tr>
+                        <th class="text-center"></th>
+                        <th class="text-center">Product name</th>
+                        <th class="text-center">Name</th>
+                        <th class="text-center">Quantity</th>
+                        <th class="text-center">Discount(%)</th>
+                        <th class="text-center">Sub total</th>
+                        <th class="text-center">Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.cart)
+                    {
+                        String imgLink = item.imgLink;
+                        <tr align="center">
+                            <td style="padding-top: 15px;">
+                                @{
+                                    if (imgLink != null)
+                                    {
+                                        <img src="~/uploads/@imgLink" width="100px" height="100px" />
+                                    }
+                                    else
+                                    {
+                                        <img src="~/images/combo.png" width="100px" height="100px" />
+                                    }
+                                }
+
+                            </td>
+                            <td style="padding-top: 15px;">@item.name</td>
+                            <td style="padding-top: 15px;">@item.unitPirce</td>
+                            <td style="padding-top: 15px;"><input type="number" name="quantities" value="@item.quantity" min="1" style="width: 50px;" /></td>
+                            <td style="padding-top: 15px;">@item.discount</td>
+                            <td style="padding-top: 15px;">
+                                @((double)item.unitPirce * item.quantity - (double)(item.unitPirce * item.quantity) * item.discount / 100) vnđ
+                            </td>
+                            <td style="padding-top: 15px;">
+                                <button class="btn-danger rounded-pill px-4 py-2"><a asp-page="customerCart" asp-page-handler="delete" asp-route-id="@item.ItemId" asp-route-type="@item.type" style="color: #fff; text-decoration: none; font-weight: 600;">X</a></button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="6" align="right" style="font-weight: 500; font-size: 20px;">Total</td>
+                        <td align="center">@(Model.Total) vnđ</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <div class="d-flex justify-content-end">
+                <input class="btn btn-dark" type="submit" value="Update" />
+            </div>
+
+        </form>
+        <form method="post" asp-page="customerCart" asp-page-handler="submit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label class="control-label">Ship address</label>
+                <input type="text" asp-for="@Model.Shippaddress" name="shippaddress" class="input-new" />
+                <span asp-validation-for="@Model.Shippaddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Payment method</label>
+                <select name="paymentMethod" class="form-control" asp-items="ViewBag.payment"></select>
+            </div>
+            <div>
+                <p class="text-danger">@Model.Message</p>
+            </div>
+            <div class="form-group">
+                <div class="d-flex justify-content-center">
+                    <input type="submit" class="btn rounded-pill btn-primary px-4 py-2" />
+                </div>
+
+            </div>
+        </form>
+        <button class="btn-secondary rounded-pill px-4 py-2"><a href="~/ShoppingProduct" style="color: #fff; text-decoration: none; font-weight: 600;">Add Product</a></button>
+        <button class="btn-secondary rounded-pill px-4 py-2"><a href="~/ShoppingCombo" style="color: #fff; text-decoration: none; font-weight: 600;">Add Combo</a></button>
+    </div>
+}
+else
+{
+    <div class="card shadow p-3 mb-5 bg-white rounded" style="margin: 0 200px 0 200px;">
+        <div class="" style="padding: 30px 30px 30px 30px;">
+            <h4 class="card-header">
+                Cart is empty
+            </h4>
+            <div class="d-flex justify-content-around" style="margin-top: 50px;">
+                <button class="btn-primary rounded-pill px-4 py-2"><a href="~/ShoppingProduct" style="color: #fff; text-decoration: none; font-weight: 600;">Add Product</a></button>
+                <button class="btn-primary rounded-pill px-4 py-2"><a href="~/ShoppingCombo" style="color: #fff; text-decoration: none; font-weight: 600;">Add Combo</a></button>
+            </div>
+        </div>
+    </div>
+}
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

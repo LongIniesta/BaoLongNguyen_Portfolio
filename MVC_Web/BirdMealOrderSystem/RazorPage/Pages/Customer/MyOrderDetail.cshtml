@@ -1,0 +1,161 @@
+﻿@page
+@model RazorPage.Pages.Customer.MyOrderDetailModel
+@{
+    Layout = "LayoutCustomer";
+}
+
+
+<div class="d-flex justify-content-between">
+    <a asp-page="./MyOrder">
+        <img src="~/images/back-icon-3.png" style="padding-left: 30px;" />
+    </a>
+    <div>
+    </div>
+    <div>
+    </div>
+</div>
+<div class="d-flex justify-content-center">
+    <span class="mx-2" style="font-weight: 500; color: #000;">Details</span>
+</div>
+<h1 class="text-center mt-5 mb-5">ORDER DETAILS</h1>
+
+<div class="card shadow p-3 mb-5 bg-white rounded" style="margin: 0 200px 0 200px;">
+    <h4>Order</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Order.Total)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Order.Total)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Order.OrderStatus)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Order.OrderStatus)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Order.OrdeDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Order.OrdeDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Order.ShippedDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Order.ShippedDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Order.ShipAddress)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Order.ShipAddress)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Order.Paymentmethod)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Order.Paymentmethod)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Order.PaymentStatus)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Order.PaymentStatus)
+        </dd>
+    </dl>
+    <div class="d-flex justify-content-center">
+        <span class="text-danger">@Model.Message</span>
+        <div class="d-flex justify-content-center" style="margin-top: 15px;">
+            <button class="btn-danger rounded-pill px-4 py-2"><a asp-page="myOrderDetail" asp-page-handler="delete" asp-route-id="@Model.Order.OrderId" style="color: #fff; text-decoration: none; font-weight: 600;">CANCEL</a></button>
+        </div>
+    </div>
+</div>
+
+<div class="card shadow p-3 mb-5 bg-white rounded" style="margin: 0 200px 0 200px;">
+    <h4 class="text-center" style="font-weight: 500;">Rating</h4>
+    <hr />
+
+    @if (Model.orderComboDetails != null && Model.orderComboDetails.Count > 0)
+    {
+        <div>
+            @foreach (var item in Model.orderComboDetails)
+            {
+                <div>
+                    <h5>Combo @item.Combo.ComboName</h5>
+                    <p><span style="font-weight: 500">Quantity: </span>@item.Quantity</p>
+                    <p><span style="font-weight: 500">Unit price after discounted: </span>@(((double)item.UnitPrice) - ((double)item.UnitPrice * item.Discount / 100))</p>
+                </div>
+                if (item.Feedback == null || item.Feedback.Equals("notfeedback"))
+                {
+                    <form method="post" asp-page="myOrderDetail" asp-page-handler="commentCombo">
+                        <input type="hidden" name="Orderid" value="@Model.Order.OrderId" />
+                        <input type="hidden" name="id" value="@item.ComboId" />
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="">Comment</span>
+                            </div>
+                            <input name="commment" type="text" class="form-control">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Rating</span>
+                                <span class="input-group-text">Star</span>
+                            </div>
+                            <input min="1" max="100" type="number" name="rating" class="form-control" aria-label="Amount">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-dark" />
+                            </div>
+                        </div>
+
+                    </form>
+                }
+            }
+        </div>
+    }
+    <hr />
+    @if (Model.orderProductDetails != null && Model.orderProductDetails.Count > 0)
+    {
+        <div>
+            @foreach (var item in Model.orderProductDetails)
+            {
+                <div>
+                    <h5>Product @item.Product.ProductName</h5>
+                    <p><span style="font-weight: 500">Quantity: </span>@item.Quantity</p>
+                    <p><span style="font-weight: 500">Unit price after discounted: </span>@(((double)item.UnitPrice) - ((double)item.UnitPrice * item.Discount / 100))</p>
+                </div>
+
+                if (item.Feedback == null || item.Feedback.Equals("notfeedback"))
+                {
+                    <form method="post" asp-page="myOrderDetail" asp-page-handler="commentProduct">
+                        <input type="hidden" name="Orderid" value="@Model.Order.OrderId" />
+                        <input type="hidden" name="id" value="@item.ProductId" />
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="">Comment</span>
+                            </div>
+                            <input name="commment" type="text" class="form-control">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Rating</span>
+                                <span class="input-group-text">Star</span>
+                            </div>
+                            <input min="1" max="100" type="number" name="rating" class="form-control" aria-label="Amount">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-dark" />
+                            </div>
+                        </div>
+
+                    </form>
+                }
+            }
+        </div>
+    }
+</div>

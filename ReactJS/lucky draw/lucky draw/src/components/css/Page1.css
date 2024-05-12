@@ -1,0 +1,98 @@
+.page1screen {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/lottery-4803d.appspot.com/o/N%E1%BB%81n%20kh%C3%B4ng%20ch%E1%BB%AF%20(1).gif?alt=media&token=dc3f7b55-331b-4c1b-8b31-bbd02a15102a');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #ffffff;
+    text-align: center;
+}
+
+.page1main {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: #ffffff;
+    text-align: center;
+}
+
+.form-container {
+    margin-top: 10%; /* Đặt giá trị margin-top tùy ý */
+}
+
+form {
+    position: absolute;
+    background-color: #ffffff23;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%; /* Duy trì căn giữa theo chiều dọc */
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 30px;
+}
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 90%;
+}
+
+input{
+    margin-top: 10px;
+    width: 97%;
+    height: 50px;
+    background-color: #bebebe46;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'Alfa Slab One', serif;
+    padding-inline-start: 10px;
+}
+.loading{
+    font-family: 'Alfa Slab One', serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+.btnPage1{
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    height: 70px;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.445);
+    border-radius: 10px;
+    font-family: 'Alfa Slab One', serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+.btnPage1:hover{
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    height: 70px;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.158);
+    border-radius: 10px;
+    font-family: 'Alfa Slab One', serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+file {
+    margin-top: 5px;
+}
+.minititle{
+    font-weight: 100px;
+    font-family: 'Alfa Slab One', serif;
+    color: rgb(249, 255, 196);
+    margin: 0px;
+}
+.title{
+    font-family: 'Alfa Slab One', serif;
+    color: #ffffff;
+    font-size: 30px;
+}

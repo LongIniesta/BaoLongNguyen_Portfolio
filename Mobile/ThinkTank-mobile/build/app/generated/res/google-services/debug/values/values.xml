@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">454344962783-86hou9mgaev4kee0ec22m8141lpsb1ke.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://thinktank-ad0b3-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">454344962783</string>
+    <string name="google_api_key" translatable="false">AIzaSyCR9osDq8OhcwSmMW3_AlgD8KvqqlClHdE</string>
+    <string name="google_app_id" translatable="false">1:454344962783:android:3fd8550149acb08a1b6f6a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCR9osDq8OhcwSmMW3_AlgD8KvqqlClHdE</string>
+    <string name="google_storage_bucket" translatable="false">thinktank-ad0b3.appspot.com</string>
+    <string name="project_id" translatable="false">thinktank-ad0b3</string>
+</resources>

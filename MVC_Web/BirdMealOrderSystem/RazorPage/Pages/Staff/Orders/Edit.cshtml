@@ -1,0 +1,71 @@
+﻿@page
+@model RazorPage.Pages.Staff.Orders.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "LayoutStaff";
+}
+
+<div class="d-flex justify-content-between">
+    <a asp-page="./Index">
+        <img src="~/images/back-icon-3.png" style="padding-left: 30px;" />
+    </a>
+    <div>
+    </div>
+    <div>
+    </div>
+</div>
+<div class="d-flex justify-content-center">
+    <span class="mx-2 span-custom"><a style="font-weight: 500; color: #5A5A5A; text-decoration: none;" asp-page="./Index">Orders</a></span>
+    <span> / </span>
+    <span class="mx-2" style="font-weight: 500; color: #000;">Edit</span>
+</div>
+<h1 class="text-center mt-5 mb-5">Update process</h1>
+<div class="card shadow p-3 mb-5 bg-white rounded" style="margin: 0 200px 0 200px;">
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Order.OrderId" />
+            <input type="hidden" asp-for="Order.UserId" />
+            <input type="hidden" asp-for="Order.User" />
+            <input type="hidden" asp-for="Order.Total" />
+            <input type="hidden" asp-for="Order.OrdeDate" />
+            <input type="hidden" asp-for="Order.ShipAddress" />
+            <input type="hidden" asp-for="Order.Paymentmethod" />
+
+
+            <div class="form-group">
+                <label asp-for="Order.OrderStatus" class="control-label"></label>
+                <select asp-for="Order.OrderStatus" class="form-control" asp-items="ViewBag.status"></select>
+                <span asp-validation-for="Order.OrderStatus" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Order.PaymentStatus" class="control-label"></label>
+                <select asp-for="Order.PaymentStatus" class="form-control" asp-items="ViewBag.payment"></select>
+                <span asp-validation-for="Order.PaymentStatus" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Order.OrdeDate" class="control-label"></label>
+                <h5>@Model.Order.OrdeDate</h5>
+                <span asp-validation-for="Order.OrdeDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Order.ShippedDate" class="control-label"></label>
+                <input asp-for="Order.ShippedDate" class="form-control" />
+                <span asp-validation-for="Order.ShippedDate" class="text-danger"></span>
+            </div>
+            <h5 class="text-danger">@Model.Message</h5>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

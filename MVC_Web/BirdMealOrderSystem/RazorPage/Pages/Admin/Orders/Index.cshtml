@@ -1,0 +1,109 @@
+﻿@page
+@model RazorPage.Pages.Admin.Orders.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "LayoutAdmin";
+}
+
+<div class="card shadow p-3 mb-5 bg-white rounded" style="margin: 0 200px 0 200px;">
+    <h1 class="text-center">Report</h1>
+
+    <form method="post" asp-page-handler="generate">
+        <div class="form-group">
+            <label class="control-label">Order date from</label>
+            <input asp-for="orderStart" class="form-control" />
+            <span asp-validation-for="orderStart" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label class="control-label">To</label>
+            <input asp-for="orderEnd" class="form-control" />
+            <span asp-validation-for="orderStart" class="text-danger"></span>
+        </div>
+        <div class="">
+            <label>Number of order:</label>
+            <h4>@Model.numberOfOrder</h4>
+            <lable>Total:</lable>
+            <h4>@Model.Total</h4>
+
+        </div>
+        <div class="d-flex justify-content-center">
+            <button type="submit" class="btn-primary rounded-pill px-4 py-2">Generate</button>
+        </div>
+
+        <div><span class="text-danger">@Model.Message</span></div>
+    </form>
+</div>
+<table class="table">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Order[0].Total)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Order[0].OrderStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Order[0].OrdeDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Order[0].ShippedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Order[0].ShipAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Order[0].Paymentmethod)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Order[0].PaymentStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Order[0].User.UserName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    @if (Model.Order != null)
+    {
+        <tbody>
+            @foreach (var item in Model.Order)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Total)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.OrderStatus)
+                    </td>
+                    <td>
+                        @{
+                            DateTime orderDate = (DateTime)item.OrdeDate;
+                            string formatDate = orderDate.ToString("dd/MM/yyyy");
+                        }
+                        <span>@formatDate</span>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ShippedDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ShipAddress)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Paymentmethod)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PaymentStatus)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.User.UserName)
+                    </td>
+                    <td>
+                        <a asp-page="./Details" asp-route-id="@item.OrderId">Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    }
+
+</table>

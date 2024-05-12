@@ -1,0 +1,11 @@
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DTOs\bin\Release\net6.0\DTOs.deps.json
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DTOs\bin\Release\net6.0\DTOs.dll
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DTOs\bin\Release\net6.0\DTOs.pdb
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DTOs\obj\Release\net6.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DTOs\obj\Release\net6.0\DTOs.AssemblyInfoInputs.cache
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DTOs\obj\Release\net6.0\DTOs.AssemblyInfo.cs
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DTOs\obj\Release\net6.0\DTOs.csproj.CoreCompileInputs.cache
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DTOs\obj\Release\net6.0\DTOs.dll
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DTOs\obj\Release\net6.0\refint\DTOs.dll
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DTOs\obj\Release\net6.0\DTOs.pdb
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DTOs\obj\Release\net6.0\ref\DTOs.dll

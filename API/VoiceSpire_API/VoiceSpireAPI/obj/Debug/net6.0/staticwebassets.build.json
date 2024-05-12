@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "nuyYFuEwmm7mMNOObZI1SCTf4hBcRI8U0XfHXgVyykA=",
+  "Source": "VoiceSpireAPI",
+  "BasePath": "_content/VoiceSpireAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

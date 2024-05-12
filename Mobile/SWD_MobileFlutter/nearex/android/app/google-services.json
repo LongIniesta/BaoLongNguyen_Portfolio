@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "879524914856",
+    "project_id": "swdnearex",
+    "storage_bucket": "swdnearex.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879524914856:android:82d0b4b2dcb9ee7586049d",
+        "android_client_info": {
+          "package_name": "com.example.nearex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879524914856-ntl58knn6kmtqpj2u9mpmm7ku5amhg6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfQeUVD8o8yipWeHmNU-LCJSphiceU3Hg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879524914856-ntl58knn6kmtqpj2u9mpmm7ku5amhg6k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "879524914856-3lkh5co797l0vqh9v1q7dhv8tavs2a3t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.nearex"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,127 @@
+﻿@page
+@using BussinessObject;
+@model RazorPage.Pages.Staff.Products.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "LayoutStaff";
+}
+
+<div class="d-flex justify-content-between">
+    <a asp-page="Index">
+        <img src="~/images/back-icon-3.png" style="padding-left: 30px;" />
+    </a>
+    <div>
+    </div>
+    <div>
+    </div>
+</div>
+<div class="d-flex justify-content-center">
+    <span class="mx-2 span-custom"><a style="font-weight: 500; color: #5A5A5A; text-decoration: none;" asp-page="./Index">Products</a></span>
+    <span> / </span>
+    <span class="mx-2" style="font-weight: 500; color: #000;">Details</span>
+</div>
+<h1 class="text-center mt-5 mb-5">Product Information</h1>
+
+<hr />
+
+<div class="card shadow p-3 mb-5 bg-white rounded" style="margin: 0 200px 0 200px;">
+    <div style="padding: 30px 30px 30px 30px;">
+        <form>
+            @{
+                String imgLink = Model.Product.ImageLink;
+            }
+            <div class="form-group">
+                <div class="d-flex justify-content-start">
+                    <div style="width: 200px; height: 200px; border-radius: 10px;">
+                        <img src="~/uploads/@imgLink" height="200px" width="200px" />
+                    </div>
+
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Product.ProductName" class="control-label" style="font-weight: 500;">Product Name</label>
+                <input disabled asp-for="Product.ProductName" class="form-control" />
+
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label asp-for="Product.UnitInStock" class="control-label" style="font-weight: 500;">In Stock</label>
+                    <input disabled asp-for="Product.UnitInStock" class="form-control" />
+
+                </div>
+                <div class="form-group col-md-6">
+                    <label asp-for="Product.UnitPrice" class="control-label" style="font-weight: 500;">Price</label>
+                    <input disabled type="number" asp-for="Product.UnitPrice" class="form-control" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Product.ProductDescription" class="control-label" style="font-weight: 500;">Description</label>
+                <input disabled asp-for="Product.ProductDescription" class="form-control" />
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label asp-for="Product.NutritionalIngredients" class="control-label" style="font-weight: 500;">Nutritional Ingredients</label>
+                    <input disabled asp-for="Product.NutritionalIngredients" class="form-control" />
+                </div>
+                <div class="form-group col-md-6">
+                    <label asp-for="Product.UserManual" class="control-label" style="font-weight: 500;">User Manual</label>
+                    <input disabled asp-for="Product.UserManual" class="form-control" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Product.Unit" class="control-label" style="font-weight: 500;">Unit</label>
+                <input disabled asp-for="Product.Unit" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Product.ProductDiscount" class="control-label" style="font-weight: 500;">Discount</label> (%)
+                <input disabled type="number" asp-for="Product.ProductDiscount" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Product.SupplierId" class="control-label" style="font-weight: 500;">Supplier</label>
+                <input disabled asp-for="Product.SupplierId" class="form-control" />
+            </div>
+            <div class="form-group">
+                @{
+                    if (Model.Product.ProductSattus == true)
+                    {
+                        <label style="font-weight: bold;">Status</label>
+                        <input disabled value="Available" class="form-control" />
+                    }
+                    else
+                    {
+                        <label style="font-weight: bold;">Status</label>
+                        <input disabled value="Inavailable" class="form-control" />
+                    }
+                }
+            </div>
+
+        </form>
+        <div class="d-flex justify-content-center">
+            <button class="btn-primary rounded-pill px-4 py-2"><a asp-page="./Edit" asp-route-id="@Model.Product.ProductId" style="color: #fff; text-decoration: none; font-weight: 600;">Edit</a></button>
+        </div>
+    </div>
+</div>
+
+<div class="card shadow p-3 mb-5 bg-white rounded" style="margin: 0 200px 0 200px;">
+    <h4 class="card-header">
+        Ratings
+    </h4>
+    <div class="card-body">
+        @foreach (OrderProductDetail d in Model.listOrderProductDetai)
+        {
+            <h5 class="card-title">
+                @d.Order.User.UserName
+            </h5>
+            <p class="card-text">
+                @d.Feedback
+            </p>
+            <p style="font-weight: 500;">
+                @d.Rating sao
+            </p>
+        }
+    </div>
+
+    <hr />
+</div>

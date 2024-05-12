@@ -1,0 +1,131 @@
+﻿@page
+@model RazorPage.Pages.Admin.Products.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "LayoutAdmin";
+}
+
+<div class="d-flex justify-content-between">
+    <a asp-page="Index">
+        <img src="~/images/back-icon-3.png" style="padding-left: 30px;" />
+    </a>
+    <div>
+    </div>
+    <div>
+    </div>
+</div>
+<div class="d-flex justify-content-center">
+    <span class="mx-2 span-custom"><a style="font-weight: 500; color: #5A5A5A; text-decoration: none;" asp-page="./Index">Products</a></span>
+    <span> / </span>
+    <span class="mx-2" style="font-weight: 500; color: #000;">Edit</span>
+</div>
+<h1 class="text-center mt-5 mb-5">EDIT PRODUCT</h1>
+
+<hr />
+<div class="card shadow p-3 mb-5 bg-white rounded" style="margin: 0 200px 0 200px;">
+    <div style="padding: 30px 30px 30px 30px;">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Product.ProductId" />
+            <input type="hidden" asp-for="Product.ImageLink" />
+            <div class="form-group">
+                <div class="d-flex justify-content-start">
+                    <div style="width: 200px; height: 200px; border-radius: 10px;">
+                        <img src="~/uploads/@Model.Product.ImageLink" height="200px" width="200px" />
+                    </div>
+                    <div style="margin-left: 20px;">
+                        <label for="imageFile" style="font-weight: 500;">Select an image to change:</label>
+                        <input type="file" class="form-control-file" id="imageFile" name="file">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Product.ProductName" class="control-label" style="font-weight: 500;">Product Name</label>
+                <input asp-for="Product.ProductName" class="form-control" />
+                <span asp-validation-for="Product.ProductName" class="text-danger"></span>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label asp-for="Product.UnitInStock" class="control-label" style="font-weight: 500;">In Stock</label>
+                    <input asp-for="Product.UnitInStock" class="form-control" />
+                    <span asp-validation-for="Product.UnitInStock" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-6">
+                    <label asp-for="Product.UnitPrice" class="control-label" style="font-weight: 500;">Price</label>
+                    <input type="number" asp-for="Product.UnitPrice" class="form-control" />
+                    <span asp-validation-for="Product.UnitPrice" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Product.ProductDescription" class="control-label" style="font-weight: 500;">Description</label>
+                <input asp-for="Product.ProductDescription" class="form-control" />
+                <span asp-validation-for="Product.ProductDescription" class="text-danger"></span>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label asp-for="Product.NutritionalIngredients" class="control-label" style="font-weight: 500;">Nutritional Ingredients</label>
+                    <input asp-for="Product.NutritionalIngredients" class="form-control" />
+                    <span asp-validation-for="Product.NutritionalIngredients" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-6">
+                    <label asp-for="Product.UserManual" class="control-label" style="font-weight: 500;">User Manual</label>
+                    <input asp-for="Product.UserManual" class="form-control" />
+                    <span asp-validation-for="Product.UserManual" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Product.Unit" class="control-label" style="font-weight: 500;">Unit</label>
+                <input asp-for="Product.Unit" class="form-control" />
+                <span asp-validation-for="Product.Unit" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Product.ProductDiscount" class="control-label" style="font-weight: 500;">Discount</label> (%)
+                <input type="number" asp-for="Product.ProductDiscount" class="form-control" />
+                <span asp-validation-for="Product.ProductDiscount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Product.SupplierId" class="control-label" style="font-weight: 500;">Supplier</label>
+                <select asp-for="Product.SupplierId" class="form-control" asp-items="ViewBag.SupplierId"></select>
+                <span asp-validation-for="Product.SupplierId" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Product.ProductSattus" /> isActive
+                </label>
+            </div>
+            <div class="form-group">
+                <span style="font-weight: 500;">Category</span>
+                @for (var i = 0; i < Model.listCategory.Count; i++)
+                {
+                    <div class="form-check">
+                        @if (Model.Product.Categories.Any(p => p.CategoryId == Model.listCategory[i].CategoryId))
+                        {
+                            <input class="form-check-input" checked="checked" type="checkbox" id="item-@i" name="selectedItems" value="@Model.listCategory[i].CategoryId">
+                        }
+                        else
+                        {
+                            <input class="form-check-input" type="checkbox" id="item-@i" name="selectedItems" value="@Model.listCategory[i].CategoryId">
+                        }
+                        <label class="form-check-label" for="item-@i">
+                            @Model.listCategory[i].CategoryName
+                        </label>
+                    </div>
+                }
+            </div>
+            <h3 class="text-danger">@Model.Message</h3>
+            <div class="d-flex justify-content-center" style="margin: 20px;">
+                <div class="form-group">
+                    <input type="submit" value="Save" class="shadow rounded" style="width: 200px; height: 35px; border: solid 2px #0044e6; border-radius: 15px; color: #fff; font-weight: 600; background: #0044e6;" />
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

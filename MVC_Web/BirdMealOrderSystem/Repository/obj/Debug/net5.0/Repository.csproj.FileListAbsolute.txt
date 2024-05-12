@@ -1,0 +1,51 @@
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Repository\bin\Debug\net5.0\Repository.deps.json
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Repository\bin\Debug\net5.0\Repository.dll
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Repository\bin\Debug\net5.0\Repository.pdb
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Repository\obj\Debug\net5.0\Repository.csproj.AssemblyReference.cache
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Repository\obj\Debug\net5.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Repository\obj\Debug\net5.0\Repository.AssemblyInfoInputs.cache
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Repository\obj\Debug\net5.0\Repository.AssemblyInfo.cs
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Repository\obj\Debug\net5.0\Repository.csproj.CoreCompileInputs.cache
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Repository\obj\Debug\net5.0\Repository.dll
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Repository\obj\Debug\net5.0\refint\Repository.dll
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Repository\obj\Debug\net5.0\Repository.pdb
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Repository\obj\Debug\net5.0\ref\Repository.dll
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Repository\bin\Debug\net5.0\BussinessObject.dll
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Repository\bin\Debug\net5.0\DataAccess.dll
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Repository\bin\Debug\net5.0\BussinessObject.pdb
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Repository\bin\Debug\net5.0\DataAccess.pdb
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Repository\obj\Debug\net5.0\Repository.csproj.CopyComplete
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Repository\bin\Debug\net5.0\Repository.deps.json
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Repository\bin\Debug\net5.0\Repository.dll
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Repository\bin\Debug\net5.0\Repository.pdb
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Repository\bin\Debug\net5.0\BussinessObject.dll
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Repository\bin\Debug\net5.0\DataAccess.dll
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Repository\bin\Debug\net5.0\BussinessObject.pdb
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Repository\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Repository\obj\Debug\net5.0\Repository.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Repository\obj\Debug\net5.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Repository\obj\Debug\net5.0\Repository.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Repository\obj\Debug\net5.0\Repository.AssemblyInfo.cs
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Repository\obj\Debug\net5.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Repository\obj\Debug\net5.0\Repository.csproj.CopyComplete
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Repository\obj\Debug\net5.0\Repository.dll
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Repository\obj\Debug\net5.0\refint\Repository.dll
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Repository\obj\Debug\net5.0\Repository.pdb
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Repository\obj\Debug\net5.0\ref\Repository.dll
+D:\PRN221\BirdMealOrderSystem\Repository\bin\Debug\net5.0\Repository.deps.json
+D:\PRN221\BirdMealOrderSystem\Repository\bin\Debug\net5.0\Repository.dll
+D:\PRN221\BirdMealOrderSystem\Repository\bin\Debug\net5.0\Repository.pdb
+D:\PRN221\BirdMealOrderSystem\Repository\bin\Debug\net5.0\BussinessObject.dll
+D:\PRN221\BirdMealOrderSystem\Repository\bin\Debug\net5.0\DataAccess.dll
+D:\PRN221\BirdMealOrderSystem\Repository\bin\Debug\net5.0\BussinessObject.pdb
+D:\PRN221\BirdMealOrderSystem\Repository\bin\Debug\net5.0\DataAccess.pdb
+D:\PRN221\BirdMealOrderSystem\Repository\obj\Debug\net5.0\Repository.csproj.AssemblyReference.cache
+D:\PRN221\BirdMealOrderSystem\Repository\obj\Debug\net5.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN221\BirdMealOrderSystem\Repository\obj\Debug\net5.0\Repository.AssemblyInfoInputs.cache
+D:\PRN221\BirdMealOrderSystem\Repository\obj\Debug\net5.0\Repository.AssemblyInfo.cs
+D:\PRN221\BirdMealOrderSystem\Repository\obj\Debug\net5.0\Repository.csproj.CoreCompileInputs.cache
+D:\PRN221\BirdMealOrderSystem\Repository\obj\Debug\net5.0\Repository.csproj.CopyComplete
+D:\PRN221\BirdMealOrderSystem\Repository\obj\Debug\net5.0\Repository.dll
+D:\PRN221\BirdMealOrderSystem\Repository\obj\Debug\net5.0\refint\Repository.dll
+D:\PRN221\BirdMealOrderSystem\Repository\obj\Debug\net5.0\Repository.pdb
+D:\PRN221\BirdMealOrderSystem\Repository\obj\Debug\net5.0\ref\Repository.dll

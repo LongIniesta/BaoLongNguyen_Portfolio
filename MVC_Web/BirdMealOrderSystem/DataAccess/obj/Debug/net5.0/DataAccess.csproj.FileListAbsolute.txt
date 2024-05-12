@@ -1,0 +1,45 @@
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DataAccess\bin\Debug\net5.0\DataAccess.dll
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\DataAccess.dll
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\refint\DataAccess.dll
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DataAccess\bin\Debug\net5.0\BussinessObject.dll
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DataAccess\bin\Debug\net5.0\BussinessObject.pdb
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CopyComplete
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DataAccess\bin\Debug\net5.0\DataAccess.dll
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DataAccess\bin\Debug\net5.0\BussinessObject.dll
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DataAccess\bin\Debug\net5.0\BussinessObject.pdb
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CopyComplete
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\DataAccess.dll
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\refint\DataAccess.dll
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
+D:\PRN221\BirdMealOrderSystem\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+D:\PRN221\BirdMealOrderSystem\DataAccess\bin\Debug\net5.0\DataAccess.dll
+D:\PRN221\BirdMealOrderSystem\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+D:\PRN221\BirdMealOrderSystem\DataAccess\bin\Debug\net5.0\BussinessObject.dll
+D:\PRN221\BirdMealOrderSystem\DataAccess\bin\Debug\net5.0\BussinessObject.pdb
+D:\PRN221\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+D:\PRN221\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN221\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+D:\PRN221\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+D:\PRN221\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\PRN221\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CopyComplete
+D:\PRN221\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\DataAccess.dll
+D:\PRN221\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\refint\DataAccess.dll
+D:\PRN221\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+D:\PRN221\BirdMealOrderSystem\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll

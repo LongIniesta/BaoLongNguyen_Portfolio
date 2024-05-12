@@ -1,0 +1,116 @@
+﻿@page
+@model RazorPage.Pages.Staff.Products.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "LayoutStaff";
+}
+
+<h1 class="text-center mt-5 mb-5">PRODUCT MANAGEMENT</h1>
+
+<div class="justify-content-start">
+    <form method="post">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" name="strsearch" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+                <input type="submit" class="btn btn-dark" name="search" value="SEARCH" />
+            </div>
+        </div>
+        <p style="margin-bottom: 20px; font-weight: 500;">Category</p>
+        <div class="form-group">
+            @for (var i = 0; i < Model.listCategory.Count; i++)
+            {
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="item-@i" name="selectedItems" value="@Model.listCategory[i].CategoryId">
+                    <label class="form-check-label" for="item-@i">
+                        @Model.listCategory[i].CategoryName
+                    </label>
+                </div>
+            }
+        </div>
+    </form>
+</div>
+
+
+<table class="table">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                Image
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].ProductName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].UnitInStock)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].UnitPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].ProductDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].Unit)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].ProductSattus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].Ratingavg)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].Supplier)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Product)
+        {
+            <tr>
+                <td><img src="~/uploads/@item.ImageLink" width="120" height="100" /></td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UnitInStock)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UnitPrice)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductDescription)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Unit)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductSattus)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ratingavg)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Supplier.SupplierName)
+                </td>
+                <td>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Action
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" asp-page="./Edit" asp-route-id="@item.ProductId">Edit</a>
+                            <a class="dropdown-item" asp-page="./Details" asp-route-id="@item.ProductId">Details</a>
+                            <a class="dropdown-item" asp-page="./Delete" asp-route-id="@item.ProductId">Delete</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="d-flex justify-content-center">
+    <button class="btn-primary rounded-pill px-4 py-2" asp-page="Create"><a asp-page="Create" style="color: #fff; text-decoration: none; font-weight: 600;">Create New</a></button>
+</div>

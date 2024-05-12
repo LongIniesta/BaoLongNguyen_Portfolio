@@ -1,0 +1,88 @@
+﻿@page
+@model RazorPage.Pages.Staff.Combos.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "LayoutStaff";
+}
+
+<div class="d-flex justify-content-between">
+    <a asp-page="Index">
+        <img src="~/images/back-icon-3.png" style="padding-left: 30px;" />
+    </a>
+    <div>
+    </div>
+    <div>
+    </div>
+</div>
+<div class="d-flex justify-content-center">
+    <span class="mx-2 span-custom"><a style="font-weight: 500; color: #5A5A5A; text-decoration: none;" asp-page="Index">Combos</a></span>
+    <span> / </span>
+    <span class="mx-2" style="font-weight: 500; color: #000;">Edit</span>
+</div>
+<h3 class="text-center mt-5 mb-5">Edit Combo</h3>
+
+<hr />
+
+<div class="card shadow p-3 mb-5 bg-white rounded" style="margin: 0 200px 0 200px;">
+    <div style="padding: 30px 30px 30px 30px;">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Combo.ComboId" />
+            <input type="hidden" asp-for="Combo.ComboStatus" />
+            <input type="hidden" asp-for="Combo.Ratingavg" />
+            <div class="form-group">
+                <label asp-for="Combo.ComboName" class="control-label">Combo Name</label>
+                <input asp-for="Combo.ComboName" class="form-control" />
+                <span asp-validation-for="Combo.ComboName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Combo.Price" class="control-label"></label>
+                <input type="number" asp-for="Combo.Price" class="form-control" />
+                <span asp-validation-for="Combo.Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Combo.Discount" class="control-label"></label>
+                <input type="number" asp-for="Combo.Discount" class="form-control" />
+                <span asp-validation-for="Combo.Discount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Combo.ComboDescription" class="control-label">Description</label>
+                <input asp-for="Combo.ComboDescription" class="form-control" />
+                <span asp-validation-for="Combo.ComboDescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="shadow rounded" style="width: 200px; height: 35px; border: solid 2px #0044e6; border-radius: 15px; color: #fff; font-weight: 600; background: #0044e6;" />
+            </div>
+            <h4 class="text-danger">@Model.Message</h4>
+        </form>
+    </div>
+</div>
+
+<div style="margin: 0 200px 0 200px;">
+    <h3>Combo details:</h3>
+    <div class="d-flex justify-content-around" style="padding: 20px 50px 20px 0;">
+        @foreach (var item in Model.ComboDetails)
+        {
+            <div class="d-flex justify-content-start">
+                @{
+                    String imgLink = @item.Product.ImageLink;
+                }
+                <img src="~/uploads/@imgLink" width="200" height="200" style="margin-right: 20px" />
+                <div style="padding-top: 20px;">
+                    <p style="font-weight: 500;">@item.Product.ProductName</p>
+                    <p><span style="font-weight: 500;">Quantiy: </span>@item.Quantity</p>
+                    <p><span style="font-weight: 500;">Price after discount: </span>@((item.Quantity * ((double)item.Product.UnitPrice)) - (item.Quantity * ((double)item.Product.UnitPrice) * (item.Product.ProductDiscount / 100)))</p>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

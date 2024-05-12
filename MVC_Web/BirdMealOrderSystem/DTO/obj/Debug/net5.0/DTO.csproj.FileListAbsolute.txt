@@ -1,0 +1,36 @@
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DTO\bin\Debug\net5.0\DTO.deps.json
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DTO\bin\Debug\net5.0\DTO.dll
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DTO\bin\Debug\net5.0\DTO.pdb
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DTO\obj\Debug\net5.0\DTO.csproj.AssemblyReference.cache
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DTO\obj\Debug\net5.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DTO\obj\Debug\net5.0\DTO.AssemblyInfoInputs.cache
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DTO\obj\Debug\net5.0\DTO.AssemblyInfo.cs
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DTO\obj\Debug\net5.0\DTO.csproj.CoreCompileInputs.cache
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DTO\obj\Debug\net5.0\DTO.dll
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DTO\obj\Debug\net5.0\refint\DTO.dll
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DTO\obj\Debug\net5.0\DTO.pdb
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\DTO\obj\Debug\net5.0\ref\DTO.dll
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DTO\bin\Debug\net5.0\DTO.deps.json
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DTO\bin\Debug\net5.0\DTO.dll
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DTO\bin\Debug\net5.0\DTO.pdb
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DTO\obj\Debug\net5.0\DTO.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DTO\obj\Debug\net5.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DTO\obj\Debug\net5.0\DTO.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DTO\obj\Debug\net5.0\DTO.AssemblyInfo.cs
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DTO\obj\Debug\net5.0\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DTO\obj\Debug\net5.0\DTO.dll
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DTO\obj\Debug\net5.0\refint\DTO.dll
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DTO\obj\Debug\net5.0\DTO.pdb
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\DTO\obj\Debug\net5.0\ref\DTO.dll
+D:\PRN221\BirdMealOrderSystem\DTO\bin\Debug\net5.0\DTO.deps.json
+D:\PRN221\BirdMealOrderSystem\DTO\bin\Debug\net5.0\DTO.dll
+D:\PRN221\BirdMealOrderSystem\DTO\bin\Debug\net5.0\DTO.pdb
+D:\PRN221\BirdMealOrderSystem\DTO\obj\Debug\net5.0\DTO.csproj.AssemblyReference.cache
+D:\PRN221\BirdMealOrderSystem\DTO\obj\Debug\net5.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN221\BirdMealOrderSystem\DTO\obj\Debug\net5.0\DTO.AssemblyInfoInputs.cache
+D:\PRN221\BirdMealOrderSystem\DTO\obj\Debug\net5.0\DTO.AssemblyInfo.cs
+D:\PRN221\BirdMealOrderSystem\DTO\obj\Debug\net5.0\DTO.csproj.CoreCompileInputs.cache
+D:\PRN221\BirdMealOrderSystem\DTO\obj\Debug\net5.0\DTO.dll
+D:\PRN221\BirdMealOrderSystem\DTO\obj\Debug\net5.0\refint\DTO.dll
+D:\PRN221\BirdMealOrderSystem\DTO\obj\Debug\net5.0\DTO.pdb
+D:\PRN221\BirdMealOrderSystem\DTO\obj\Debug\net5.0\ref\DTO.dll

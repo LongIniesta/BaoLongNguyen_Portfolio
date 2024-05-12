@@ -1,0 +1,24 @@
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Test\bin\Debug\net5.0\Test.deps.json
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Test\bin\Debug\net5.0\Test.dll
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Test\bin\Debug\net5.0\Test.pdb
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Test\obj\Debug\net5.0\Test.csproj.AssemblyReference.cache
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Test\obj\Debug\net5.0\Test.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Test\obj\Debug\net5.0\Test.AssemblyInfoInputs.cache
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Test\obj\Debug\net5.0\Test.AssemblyInfo.cs
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Test\obj\Debug\net5.0\Test.csproj.CoreCompileInputs.cache
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Test\obj\Debug\net5.0\Test.dll
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Test\obj\Debug\net5.0\refint\Test.dll
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Test\obj\Debug\net5.0\Test.pdb
+D:\PRN221\PRN221_GroupProject\BirdMealOrderSystem\Test\obj\Debug\net5.0\ref\Test.dll
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Test\bin\Debug\net5.0\Test.deps.json
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Test\bin\Debug\net5.0\Test.dll
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Test\bin\Debug\net5.0\Test.pdb
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Test\obj\Debug\net5.0\Test.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Test\obj\Debug\net5.0\Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Test\obj\Debug\net5.0\Test.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Test\obj\Debug\net5.0\Test.AssemblyInfo.cs
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Test\obj\Debug\net5.0\Test.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Test\obj\Debug\net5.0\Test.dll
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Test\obj\Debug\net5.0\refint\Test.dll
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Test\obj\Debug\net5.0\Test.pdb
+C:\Users\Admin\OneDrive\Máy tính\CN7 Summer 2023\PRN221\BirdMealOrderSystem\BirdMealOrderSystem\Test\obj\Debug\net5.0\ref\Test.dll

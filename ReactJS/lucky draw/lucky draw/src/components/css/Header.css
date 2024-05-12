@@ -1,0 +1,49 @@
+header {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Thay đổi giá trị justify-content để căn phải */
+    padding: 20px;
+    background-color: #b4dbb4; /* Thay đổi màu nền nếu cần */
+  }
+  
+  nav {
+    justify-content: space-between;
+    margin-left: auto; /* Căn phải phần tử nav */
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 50px;
+    height: 100%;
+
+  }
+  
+  nav a {
+    font-family: 'Lobster', sans-serif;
+    text-decoration: none;
+    color: #00472c; 
+  }
+  .trangchu{
+    font-size: 15px;
+    font-family: 'Lobster', sans-serif;
+    text-decoration: none;
+    color: #00472c; 
+    
+  }
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+  
+ h1 {
+    margin-left: 20px;
+    font-family: 'Lobster', sans-serif;
+    text-align: left;
+    color: #00581d;
+  }
+  

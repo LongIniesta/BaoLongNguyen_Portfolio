@@ -1,0 +1,14 @@
+D:\FA23\PRN231\PRN231_GroupProject_OData_V2\BE_PRN231_CatDogLover_OData\ttt\bin\Debug\net6.0\ttt.deps.json
+D:\FA23\PRN231\PRN231_GroupProject_OData_V2\BE_PRN231_CatDogLover_OData\ttt\bin\Debug\net6.0\ttt.runtimeconfig.json
+D:\FA23\PRN231\PRN231_GroupProject_OData_V2\BE_PRN231_CatDogLover_OData\ttt\bin\Debug\net6.0\ttt.dll
+D:\FA23\PRN231\PRN231_GroupProject_OData_V2\BE_PRN231_CatDogLover_OData\ttt\bin\Debug\net6.0\ttt.pdb
+D:\FA23\PRN231\PRN231_GroupProject_OData_V2\BE_PRN231_CatDogLover_OData\ttt\obj\Debug\net6.0\ttt.csproj.AssemblyReference.cache
+D:\FA23\PRN231\PRN231_GroupProject_OData_V2\BE_PRN231_CatDogLover_OData\ttt\obj\Debug\net6.0\ttt.GeneratedMSBuildEditorConfig.editorconfig
+D:\FA23\PRN231\PRN231_GroupProject_OData_V2\BE_PRN231_CatDogLover_OData\ttt\obj\Debug\net6.0\ttt.AssemblyInfoInputs.cache
+D:\FA23\PRN231\PRN231_GroupProject_OData_V2\BE_PRN231_CatDogLover_OData\ttt\obj\Debug\net6.0\ttt.AssemblyInfo.cs
+D:\FA23\PRN231\PRN231_GroupProject_OData_V2\BE_PRN231_CatDogLover_OData\ttt\obj\Debug\net6.0\ttt.csproj.CoreCompileInputs.cache
+D:\FA23\PRN231\PRN231_GroupProject_OData_V2\BE_PRN231_CatDogLover_OData\ttt\obj\Debug\net6.0\ttt.dll
+D:\FA23\PRN231\PRN231_GroupProject_OData_V2\BE_PRN231_CatDogLover_OData\ttt\obj\Debug\net6.0\refint\ttt.dll
+D:\FA23\PRN231\PRN231_GroupProject_OData_V2\BE_PRN231_CatDogLover_OData\ttt\obj\Debug\net6.0\ttt.pdb
+D:\FA23\PRN231\PRN231_GroupProject_OData_V2\BE_PRN231_CatDogLover_OData\ttt\obj\Debug\net6.0\ttt.genruntimeconfig.cache
+D:\FA23\PRN231\PRN231_GroupProject_OData_V2\BE_PRN231_CatDogLover_OData\ttt\obj\Debug\net6.0\ref\ttt.dll

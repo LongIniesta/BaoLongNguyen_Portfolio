@@ -1,0 +1,15 @@
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DataAccess\bin\Release\net6.0\DataAccess.deps.json
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DataAccess\bin\Release\net6.0\DataAccess.dll
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DataAccess\bin\Release\net6.0\DataAccess.pdb
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DataAccess\bin\Release\net6.0\BusinessObjects.dll
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DataAccess\bin\Release\net6.0\BusinessObjects.pdb
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DataAccess\obj\Release\net6.0\DataAccess.csproj.AssemblyReference.cache
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DataAccess\obj\Release\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DataAccess\obj\Release\net6.0\DataAccess.AssemblyInfoInputs.cache
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DataAccess\obj\Release\net6.0\DataAccess.AssemblyInfo.cs
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DataAccess\obj\Release\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DataAccess\obj\Release\net6.0\DataAccess.csproj.CopyComplete
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DataAccess\obj\Release\net6.0\DataAccess.dll
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DataAccess\obj\Release\net6.0\refint\DataAccess.dll
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DataAccess\obj\Release\net6.0\DataAccess.pdb
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\DataAccess\obj\Release\net6.0\ref\DataAccess.dll

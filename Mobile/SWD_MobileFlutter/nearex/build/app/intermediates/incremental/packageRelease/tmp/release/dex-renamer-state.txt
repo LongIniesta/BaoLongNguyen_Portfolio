@@ -1,0 +1,4 @@
+#Wed Jun 28 09:27:36 ICT 2023
+base.0=D\:\\SWD\\Mobile\\SWD_MobileFlutter\\nearex\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

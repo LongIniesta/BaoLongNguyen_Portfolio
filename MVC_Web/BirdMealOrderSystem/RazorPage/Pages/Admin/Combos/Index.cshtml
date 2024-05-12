@@ -1,0 +1,102 @@
+﻿@page
+@model RazorPage.Pages.Admin.Combos.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "LayoutAdmin";
+}
+
+<h1 class="text-center mt-5 mb-5">COMBO MANAGEMENT</h1>
+
+<div class="container-fluid">
+    <div class="d-flex justify-content-end">
+        <form method="post">
+
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" name="strsearch" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                    <input type="submit" class="btn btn-dark" name="search" value="SEARCH" />
+                </div>
+            </div>
+        </form>
+    </div>
+    <table class="table">
+        <thead class="table-dark">
+            <tr>
+                <th>
+                    Combo
+                </th>
+                <th>
+                    Price
+                </th>
+                <th>
+                    Rating
+                </th>
+                <th>
+                    Discount
+                </th>
+                <th>
+                    Description
+                </th>
+                <th>
+                    Status
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Combo)
+            {
+                <tr>
+                    <td style="font-weight: 500;">
+                        @Html.DisplayFor(modelItem => item.ComboName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Ratingavg)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Discount)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ComboDescription)
+                    </td>
+                    <td>
+                        @{
+                            if (item.ComboStatus == true)
+                            {
+                                <div class="active-status">
+                                    <span>Available</span>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="disavai-status">
+                                    <span>Inactive</span>
+                                </div>
+                            }
+                        }
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Action
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" asp-page="./Edit" asp-route-id="@item.ComboId">Edit</a>
+                                <a class="dropdown-item" asp-page="./Details" asp-route-id="@item.ComboId">Details</a>
+                                <a class="dropdown-item" asp-page="./Delete" asp-route-id="@item.ComboId">Delete</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="d-flex justify-content-center">
+    <button class="btn-primary rounded-pill px-4 py-2" asp-page="Create"><a asp-page="Create" style="color: #fff; text-decoration: none; font-weight: 600;">Create New</a></button>
+</div>

@@ -1,0 +1,11 @@
+D:\FA23\PRN231\BE_PRN231_CatDogLover\BE_PRN231_CatDogLover\obj\Release\net6.0\PubTmp\Out\BE_PRN231_CatDogLover.exe
+D:\FA23\PRN231\BE_PRN231_CatDogLover\BE_PRN231_CatDogLover\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\FA23\PRN231\BE_PRN231_CatDogLover\BE_PRN231_CatDogLover\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\FA23\PRN231\BE_PRN231_CatDogLover\BE_PRN231_CatDogLover\obj\Release\net6.0\PubTmp\Out\BE_PRN231_CatDogLover.dll
+D:\FA23\PRN231\BE_PRN231_CatDogLover\BE_PRN231_CatDogLover\obj\Release\net6.0\PubTmp\Out\BE_PRN231_CatDogLover.deps.json
+D:\FA23\PRN231\BE_PRN231_CatDogLover\BE_PRN231_CatDogLover\obj\Release\net6.0\PubTmp\Out\BE_PRN231_CatDogLover.runtimeconfig.json
+D:\FA23\PRN231\BE_PRN231_CatDogLover\BE_PRN231_CatDogLover\obj\Release\net6.0\PubTmp\Out\BE_PRN231_CatDogLover.pdb
+D:\FA23\PRN231\BE_PRN231_CatDogLover\BE_PRN231_CatDogLover\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\FA23\PRN231\BE_PRN231_CatDogLover\BE_PRN231_CatDogLover\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\FA23\PRN231\BE_PRN231_CatDogLover\BE_PRN231_CatDogLover\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\FA23\PRN231\BE_PRN231_CatDogLover\BE_PRN231_CatDogLover\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -1,0 +1,1 @@
+ D:\\ThinkTank-mobile\\.dart_tool\\flutter_build\\28dc09b767afd53f4027fc8fd7417965\\native_assets.yaml: 

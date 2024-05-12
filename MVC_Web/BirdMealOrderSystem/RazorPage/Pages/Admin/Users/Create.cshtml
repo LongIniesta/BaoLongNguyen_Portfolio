@@ -1,0 +1,90 @@
+﻿@page
+@model RazorPage.Pages.Admin.Users.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "LayoutAdmin";
+}
+
+<div class="d-flex justify-content-between">
+    <a asp-page="Index">
+        <img src="~/images/back-icon-3.png" style="padding-left: 30px;" />
+    </a>
+    <div>
+    </div>
+    <div>
+    </div>
+</div>
+<div class="d-flex justify-content-center">
+    <span class="mx-2 span-custom"><a style="font-weight: 500; color: #5A5A5A; text-decoration: none;" asp-page="Index">Accounts</a></span>
+    <span> / </span>
+    <span class="mx-2" style="font-weight: 500; color: #000;">Create</span>
+</div>
+<h1 class="text-center mt-5 mb-5">CREATE USER</h1>
+
+
+<hr />
+
+<div class="card shadow p-3 mb-5 bg-white rounded" style="margin: 0 200px 0 200px;">
+    <div style="padding: 30px 30px 30px 30px;">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label asp-for="User.UserName" class="control-label"></label>
+                    <input asp-for="User.UserName" class="form-control" />
+                    <span asp-validation-for="User.UserName" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-6">
+                    <label asp-for="User.Email" class="control-label"></label>
+                    <input asp-for="User.Email" class="form-control" />
+                    <span asp-validation-for="User.Email" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="User.Password" class="control-label"></label>
+                <input asp-for="User.Password" class="form-control" />
+                <span asp-validation-for="User.Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="User.Address" class="control-label"></label>
+                <input asp-for="User.Address" class="form-control" />
+                <span asp-validation-for="User.Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="User.PhoneNumber" class="control-label"></label>
+                <input asp-for="User.PhoneNumber" class="form-control" />
+                <span asp-validation-for="User.PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="User.Birthday" class="control-label"></label>
+                <input asp-for="User.Birthday" class="form-control" />
+                <span asp-validation-for="User.Birthday" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="User.Role" class="control-label"></label>
+                <select asp-for="User.Role" class="form-control" asp-items="ViewBag.role"></select>
+                <span asp-validation-for="User.Role" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="User.Status" /> isActive
+                </label>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="form-group">
+                    <input type="submit" value="Create" class="shadow rounded" style="width: 200px; height: 35px; border: solid 2px #0044e6; border-radius: 15px; color: #fff; font-weight: 600; background: #0044e6;" />
+                </div>
+            </div>
+            <div>
+                <h4 class="text-danger">@Model.Message</h4>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

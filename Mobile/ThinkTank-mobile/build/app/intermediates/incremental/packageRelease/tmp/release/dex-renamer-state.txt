@@ -1,0 +1,4 @@
+#Thu May 02 10:35:39 ICT 2024
+base.0=D\:\\ThinkTank-mobile\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

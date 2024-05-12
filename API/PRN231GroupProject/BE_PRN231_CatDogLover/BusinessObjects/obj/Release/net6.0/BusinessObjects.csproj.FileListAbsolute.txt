@@ -1,0 +1,14 @@
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\BusinessObjects\bin\Release\net6.0\BusinessObjects.deps.json
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\BusinessObjects\bin\Release\net6.0\BusinessObjects.runtimeconfig.json
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\BusinessObjects\bin\Release\net6.0\BusinessObjects.dll
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\BusinessObjects\bin\Release\net6.0\BusinessObjects.pdb
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\BusinessObjects\obj\Release\net6.0\BusinessObjects.csproj.AssemblyReference.cache
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\BusinessObjects\obj\Release\net6.0\BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\BusinessObjects\obj\Release\net6.0\BusinessObjects.AssemblyInfoInputs.cache
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\BusinessObjects\obj\Release\net6.0\BusinessObjects.AssemblyInfo.cs
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\BusinessObjects\obj\Release\net6.0\BusinessObjects.csproj.CoreCompileInputs.cache
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\BusinessObjects\obj\Release\net6.0\BusinessObjects.dll
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\BusinessObjects\obj\Release\net6.0\refint\BusinessObjects.dll
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\BusinessObjects\obj\Release\net6.0\BusinessObjects.pdb
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\BusinessObjects\obj\Release\net6.0\BusinessObjects.genruntimeconfig.cache
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\BusinessObjects\obj\Release\net6.0\ref\BusinessObjects.dll

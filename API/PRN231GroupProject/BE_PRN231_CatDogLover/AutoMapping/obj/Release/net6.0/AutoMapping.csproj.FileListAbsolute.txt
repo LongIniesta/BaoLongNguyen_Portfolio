@@ -1,0 +1,17 @@
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\AutoMapping\bin\Release\net6.0\AutoMapping.deps.json
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\AutoMapping\bin\Release\net6.0\AutoMapping.dll
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\AutoMapping\bin\Release\net6.0\AutoMapping.pdb
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\AutoMapping\bin\Release\net6.0\BusinessObjects.dll
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\AutoMapping\bin\Release\net6.0\DTOs.dll
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\AutoMapping\bin\Release\net6.0\BusinessObjects.pdb
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\AutoMapping\bin\Release\net6.0\DTOs.pdb
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\AutoMapping\obj\Release\net6.0\AutoMapping.csproj.AssemblyReference.cache
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\AutoMapping\obj\Release\net6.0\AutoMapping.GeneratedMSBuildEditorConfig.editorconfig
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\AutoMapping\obj\Release\net6.0\AutoMapping.AssemblyInfoInputs.cache
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\AutoMapping\obj\Release\net6.0\AutoMapping.AssemblyInfo.cs
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\AutoMapping\obj\Release\net6.0\AutoMapping.csproj.CoreCompileInputs.cache
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\AutoMapping\obj\Release\net6.0\AutoMapping.csproj.CopyComplete
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\AutoMapping\obj\Release\net6.0\AutoMapping.dll
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\AutoMapping\obj\Release\net6.0\refint\AutoMapping.dll
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\AutoMapping\obj\Release\net6.0\AutoMapping.pdb
+D:\FA23\PRN231\PRN231_GroupProject\BE_PRN231_CatDogLover\AutoMapping\obj\Release\net6.0\ref\AutoMapping.dll

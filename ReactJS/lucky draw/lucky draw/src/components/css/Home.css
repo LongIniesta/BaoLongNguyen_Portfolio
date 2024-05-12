@@ -1,0 +1,15 @@
+/* App.css hoặc file CSS tương ứng */
+.mainhome {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/lottery-4803d.appspot.com/o/ecec.gif?alt=media&token=01da173b-63f1-45bc-8caa-01b7ea0677b6');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    color: #ffffff;
+    text-align: center;
+  }
+
+
+  

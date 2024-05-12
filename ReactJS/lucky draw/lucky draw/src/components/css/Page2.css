@@ -1,0 +1,109 @@
+.bodyPage2 {
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/lottery-4803d.appspot.com/o/N%E1%BB%81n%20kh%C3%B4ng%20ch%E1%BB%AF%20(1).gif?alt=media&token=dc3f7b55-331b-4c1b-8b31-bbd02a15102a');
+    background-size: auto;
+    background-position: center;
+}
+
+.mainPage2 {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/lottery-4803d.appspot.com/o/N%E1%BB%81n%20kh%C3%B4ng%20ch%E1%BB%AF%20(1).gif?alt=media&token=dc3f7b55-331b-4c1b-8b31-bbd02a15102a');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #ffffff;
+    text-align: center;
+}
+
+.mainPage2{
+    margin-top: 0;
+    text-align: center;
+}
+.mainPage2 h2{
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 100px;
+    font-family: 'Black Ops One', serif;
+}
+.listPrize {
+    height: 85vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+.listPrize h4{
+    width: 350px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    color: rgb(255, 243, 71);
+    font-size: 30px;
+}
+
+.listPrize p{
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 150px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+
+.listPrize ul {
+    list-style: none;
+    padding: 0;
+}
+
+.listPrize li {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+    padding: 10px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.listPrize li:nth-child(even) {
+    background-color: #00000031;
+}
+
+.listPrize li:nth-child(odd) {
+    background-color: #00000067;
+}
+
+.listPrize button{
+    background-color: rgba(71, 255, 148, 0.356);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 200px;
+    height: 60px;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Black Ops One', serif;
+}
+
+.listPrize button:hover{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgba(71, 255, 148, 0.61);
+    width: 200px;
+    height: 60px;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Black Ops One', serif;
+}
+.button1 {
+    margin-left: auto;margin-right: 50px;
+}
+.button2{
+    margin-left: 10px;
+    margin-right: 20px;
+}

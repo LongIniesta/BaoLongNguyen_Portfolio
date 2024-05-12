@@ -1,0 +1,13 @@
+com.mr.flutter.plugin.filepicker.file_picker-jetified-window-java-1.0.0-beta04-0 C:\Users\baolo\.gradle\caches\transforms-3\29517b5ba912f9689907c39dbb352d3a\transformed\jetified-window-java-1.0.0-beta04\res
+com.mr.flutter.plugin.filepicker.file_picker-jetified-window-1.0.0-beta04-1 C:\Users\baolo\.gradle\caches\transforms-3\43bc8ed9b6db7f25db0bc2b571e801e5\transformed\jetified-window-1.0.0-beta04\res
+com.mr.flutter.plugin.filepicker.file_picker-core-1.6.0-2 C:\Users\baolo\.gradle\caches\transforms-3\6d3237bc319e7b967918f32c402a8d45\transformed\core-1.6.0\res
+com.mr.flutter.plugin.filepicker.file_picker-jetified-annotation-experimental-1.1.0-3 C:\Users\baolo\.gradle\caches\transforms-3\f0ced427c4d770421a04aafb9ab9aa25\transformed\jetified-annotation-experimental-1.1.0\res
+com.mr.flutter.plugin.filepicker.file_picker-main-4 C:\Users\baolo\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-5.3.2\android\src\main\res
+com.mr.flutter.plugin.filepicker.file_picker-release-5 C:\Users\baolo\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-5.3.2\android\src\release\res
+com.mr.flutter.plugin.filepicker.file_picker-pngs-6 D:\SWD\Mobile\SWD_MobileFlutter\nearex\build\file_picker\generated\res\pngs\release
+com.mr.flutter.plugin.filepicker.file_picker-resValues-7 D:\SWD\Mobile\SWD_MobileFlutter\nearex\build\file_picker\generated\res\resValues\release
+com.mr.flutter.plugin.filepicker.file_picker-rs-8 D:\SWD\Mobile\SWD_MobileFlutter\nearex\build\file_picker\generated\res\rs\release
+com.mr.flutter.plugin.filepicker.file_picker-mergeReleaseResources-9 D:\SWD\Mobile\SWD_MobileFlutter\nearex\build\file_picker\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.mr.flutter.plugin.filepicker.file_picker-mergeReleaseResources-10 D:\SWD\Mobile\SWD_MobileFlutter\nearex\build\file_picker\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.mr.flutter.plugin.filepicker.file_picker-merged_res-11 D:\SWD\Mobile\SWD_MobileFlutter\nearex\build\file_picker\intermediates\merged_res\release
+com.mr.flutter.plugin.filepicker.file_picker-packaged_res-12 D:\SWD\Mobile\SWD_MobileFlutter\nearex\build\flutter_plugin_android_lifecycle\intermediates\packaged_res\release
